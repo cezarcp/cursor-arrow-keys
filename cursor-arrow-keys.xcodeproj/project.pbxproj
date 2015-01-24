@@ -13,6 +13,7 @@
 		F7EEF4F51A741AA600D16323 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7EEF4F41A741AA600D16323 /* Images.xcassets */; };
 		F7EEF4F81A741AA600D16323 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F7EEF4F61A741AA600D16323 /* LaunchScreen.xib */; };
 		F7EEF5041A741AA600D16323 /* cursor_arrow_keysTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7EEF5031A741AA600D16323 /* cursor_arrow_keysTests.swift */; };
+		F7EEF50E1A741B1400D16323 /* UITextViewCursorKeysExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7EEF50D1A741B1400D16323 /* UITextViewCursorKeysExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		F7EEF4FD1A741AA600D16323 /* cursor-arrow-keysTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "cursor-arrow-keysTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7EEF5021A741AA600D16323 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F7EEF5031A741AA600D16323 /* cursor_arrow_keysTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cursor_arrow_keysTests.swift; sourceTree = "<group>"; };
+		F7EEF50D1A741B1400D16323 /* UITextViewCursorKeysExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITextViewCursorKeysExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 				F7EEF4F41A741AA600D16323 /* Images.xcassets */,
 				F7EEF4F61A741AA600D16323 /* LaunchScreen.xib */,
 				F7EEF4EB1A741AA600D16323 /* Supporting Files */,
+				F7EEF50D1A741B1400D16323 /* UITextViewCursorKeysExtension.swift */,
 			);
 			path = "cursor-arrow-keys";
 			sourceTree = "<group>";
@@ -214,6 +217,7 @@
 			files = (
 				F7EEF4F01A741AA600D16323 /* ViewController.swift in Sources */,
 				F7EEF4EE1A741AA600D16323 /* AppDelegate.swift in Sources */,
+				F7EEF50E1A741B1400D16323 /* UITextViewCursorKeysExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
