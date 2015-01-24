@@ -17,7 +17,7 @@ extension UITextView {
     func setupInputAccessoryView() {
         let inputAccessoryView = UIView(frame: CGRect(origin: CGPoint(x: 0, y: 0),
                                                         size: CGSize(width: UIScreen.mainScreen().bounds.size.width, height: 44.0)))
-        inputAccessoryView.backgroundColor = UIColor.lightGrayColor()
+        inputAccessoryView.backgroundColor = UIColor(red: 209.0/255.0, green: 213.0/255.0, blue: 219.0/255.0, alpha: 1.0)
         
         let leftArrow = UIButton(frame: CGRect(origin: CGPoint(x: inputAccessoryView.center.x - 40.0 - 8.0, y: 2.0),
                                                  size: CGSize(width: 40.0, height: 40.0)))
